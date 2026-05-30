@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #1D2F30;
+}
+
+header {
+    display: flex;
+    background-color: #1D2F30;
+    width: 100vw;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    box-sizing: border-box;
+}
+header nav{
+    display: flex;
+    gap: 64px;
+}
+header nav a {
+    font-size: 18px;
+    color: white;
+}
+header div {
+    display: flex;
+    gap: 34px;
+}
+header div button {
+    background: none;
+    border: none;
+}
+main {
+    width: 100%;
+    height: 550px;
+    background-image: url("./main.png");
+    display: flex;
+    align-items: center;
+    
+}
+main div {
+    margin-left: 150px;
+    width: 55%;
+    color: white;
+}
+main div h1 {
+    font-size: 60px;
+    margin: 0px;
+}
+main div p {
+    font-size: 16px;
+}
+main div a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #BAE249;
+    font-weight: 50px;
+}
+section div {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+
+}
+section div article {
+    height: 493px;
+    width: 255px;
+    background-color: #0B1919;
+}
+section div article img {
+    display: flex;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+section div article h2 {
+    color: white;
+    font-size: 24px;
+    margin: 16px;
+
+}
+section div article p {
+    color: #899D9D;
+    font-size: 16px;
+    margin: 16px;
+}
+section div article a {
+    display: flex;
+    width: 145px;
+    height: 45px;
+    border: 1px solid #BAE249;
+    color:  #BAE249;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+section .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color:  rgb(253, 155, 216);
+}
+section .navigation p {
+    margin: 0px;
+
+}
+section h2 {
+    font-size: 48px;
+    color: white;
+    margin-top: 58px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    
+    
+}
+
+section .fotka img {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    width: 852px;
+    height: 493px;
+    
+}
+section .fotka aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #BAE249;
+    width: 255px;
+    height: 493px;
+}
+section .fotka aside h1 {
+    color: #1D2F30;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+
+}
+section .fotka aside p {
+    margin-right: 16px;
+    margin-left: 16px;
+    color: #506829;
+    font-size: 16px;
+}
+section .fotka aside a {
+    margin: auto 16px 24px 16px;
+    color: #0B1919;
+    font-size: 16px; 
+}
+.kalbec {
+    display: flex;
+    width: 100%;
+    height: 463px;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    background-image: url("./footer.png");
+}
+.kalbec h2{
+    display: flex;
+    margin-bottom: 16px;
+}
+.kalbec input {
+    display: block;
+    height: 45px;
+    width: 350px;
+    font-size: 16px;
+    padding-left: 16px;
+    margin-left: 150px;
+    box-sizing: border-box;
+}
+.kalbec p{
+    margin-left: 150px;
+    font-size: 16px;
+    
+}
+.kalbec form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.kalbec form button{
+    background-color: #BAE249;
+    width: 145px;
+    height: 45px;
+    color: black;
+    border: none;
+    font-size: 16px;
+    margin-left: 150px;
+}
+footer div{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color: #0B1919;
+    gap: 30px;
+}
+footer div a svg {
+    fill: #899D9D;
+
+}
+footer div a svg:hover{
+    fill: #BAE249;
+
+}
+footer .Чикатило {
+    height: 20px;
+    color: #899D9D;
+    font-size: 12px;
+    background-color: #1D2F30;
+}
+
